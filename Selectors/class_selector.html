@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>class Selector in CSS </title>
+
+	<style type="text/css">
+		.mystyle
+		{
+			color:blue;
+			font-style:italic;	
+		}
+        
+
+
+         /*  This paragraph refers to two classes */
+		.xx
+		{
+			color:green;
+			
+		 }
+		 .yy
+		{
+			font-size:30px;
+		 }
+
+
+         /*  Element specific style classes */
+		 h2.para 
+		{
+			color:red;
+			font-size:20px;
+		 }
+
+	</style>
+	
+</head>
+<body>
+	
+	<p class="mystyle">This is class  selector in paragraph tag</p>
+	<p class="mystyle">This is second paragraph</p>
+	<h1 class="xx yy">I am class selector in heading tag & This 
+	paragraph refers to two classes.</h1>
+	<p class="para">Element specific style classes</p>
+	<h2 class="para">This is second heading tag</h2>
+</body>
+</html>

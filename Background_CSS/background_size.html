@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Background-size in CSS</title>
+	<style type="text/css">
+
+
+		#p2
+		{ 
+			/*background-size: auto  | length | percentage | cover | contain;*/
+            color: red;
+            border: 2px solid red;
+            padding: 85px;
+			background-image: url("logo.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%; 
+		}
+
+		.p3
+		{ 
+			color:blue;
+            border: 2px solid red;
+            padding: 85px;
+			background-image: url("logo.jpg");
+			background-repeat: no-repeat;
+			background-size: 75% 50%; 
+		}
+
+		h1
+		{
+			color:pink;
+            border: 2px solid red;
+            padding: 150px;
+			background-image: url("logo.jpg");
+			background-repeat: no-repeat;
+			background-size:auto; 
+		}
+
+		h2
+		{
+			color:pink;
+            border: 2px solid red;
+            padding: 40px;
+			background-image: url("logo.jpg");
+			background-repeat: no-repeat;
+			background-size:cover; 
+		}
+
+		h3
+		{
+			color:green;
+            border: 2px dotted green;
+            padding: 100px;
+			background-image: url("logo.jpg");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size:contain; 
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<p>background-size</p>
+	<p id="p2">background-size: 100% 100%; </p>
+	<p class="p3">background-size: 75% 50%; </p>
+	<h1>auto</h1>
+	<h2>cover </h2>
+	<h3>contain :Resize the background image as much as lagre according to page</h3>
+
+</body>
+
+</html>

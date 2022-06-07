@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Background-origin in CSS</title>
+    <style type="text/css">
+     
+     /*background-origin : padding-box | border-box | content-box*/ 
+
+
+        #ex1
+        {
+            color: red;
+            border:  10px dotted black ;
+            padding: 100px;
+            background-image: url("logo.jpg");
+            background-size: 220px;
+            background-repeat: no-repeat;
+            background-origin: padding-box;
+        }
+
+        #ex2
+        {
+            color: green;
+            border:  6px dotted black;
+            padding: 85px;
+            background-image: url("logo.jpg");
+            background-size: 230px;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+
+    	#ex3
+    	{
+    		
+    		border:  8px dotted blue;
+    		padding: 90px;
+    		background-image: url("logo.jpg");
+    		background-repeat: no-repeat;
+    		background-origin: content-box;
+    	}
+    	
+
+    
+    </style>
+
+</head>
+<body>
+
+   <p  id="ex1">padding-box : bg-image starts from upper left corner with the padding edges</p>
+	
+	
+	<p id="ex2">border-box : bg-image starts from upper left corner with the border</p>
+     
+     <p id="ex3">content-box : bg-image start form upper left corner with the content of the element</p>
+     
+     
+
+
+
+	<body>
+</html>

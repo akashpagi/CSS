@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>vertical-align Property</title>
+	<style type="text/css">
+		/*direction: ltr | rtl ;*/
+        p
+        {
+        	 border: 1px solid black;
+        	 padding: 5px;
+        	 color: green;
+        }
+
+
+	    .baseline
+	 	{ 	
+	 		color: red;
+	 		vertical-align: baseline;/*Default value*/
+		}
+
+		.length
+	 	{ 	 	
+	 		color: red;
+	 		vertical-align: 30px;
+		}
+		.percent
+	 	{ 	 	
+	 		color: red;
+	 		vertical-align: -50%;
+		}
+
+		.sub
+	 	{ 		 	   	
+	 		color: red;
+	 		vertical-align: sub;
+		}
+
+		.super
+	 	{ 	 	   	
+	 		color: red;
+	 		vertical-align: super;
+		}
+
+		.top
+	 	{ 	
+	 	    font-size: 5px;	   	
+	 		color: red;
+	 		vertical-align: top;
+		}
+			
+		.text-top
+	 	{ 	 
+	 	    font-size: 5px;	   	
+	 		color: red;
+	 		vertical-align: text-top;
+		}
+
+		.middle 
+	 	{ 	
+	 		font-size: 5px;
+	 	    color: red;
+	 		vertical-align: middle;
+		}
+
+		.bottom
+	 	{ 	
+	 		font-size: 6px;
+	 	    color: blue;
+	 		vertical-align: bottom;
+		}
+
+		.text-bottom
+	 	{ 	
+	 		font-size: 5px;
+	 	    color: red;
+	 		vertical-align: text-bottom;
+		}
+
+		 
+
+	</style>
+</head>
+<body>
+	<p >H<span class="baseline">2</span>O :the element is aligned with baseline of the parent </p>
+	<p >H<span class="length">2</span>O : raises or lower an element by the specified length also negative vlaue are allowed   </p>
+	<p >H<span class="percent">2</span>O : raises or lower an element by the percent also negative vlaue are allowed   </p>
+	<p >H<span class="sub">2</span>O : the element is aligned with subscript baseline of the parent </p>
+	<p >H<span class="super">2</span>O : the element is aligned with superscript baseline of the parent </p>
+	<p >H<span class="top">2</span>O : top</p>
+	<p >H<span class="text-top">2</span>O :text-top</p>
+	<p >H<span class="middle">2</span>O : middle</p>
+	<p >H<span class="bottom">2</span>O :  bottom</p>
+	<p >H<span class="text-bottom">23432</span>O :  text-bottom </p>
+	
+	
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unicode-bidi Property</title>
+	<style type="text/css">
+		/* unicode-bidi : normal | embed | bidi-overrde */
+	    .normal
+	 	{ 				
+			color: red;
+			direction: ltr;
+			unicode-bidi: normal; 
+		}
+
+		 .embed
+	 	{ 		
+			color: green;
+			direction: rtl; 
+			unicode-bidi: embed;
+		}
+
+		 .bidi-override
+	 	{ 		
+			color: green;
+			direction: rtl; 
+			unicode-bidi: embed;
+		}
+
+	</style>
+</head>
+<body>
+	<p class="normal">unicode-bidi: normal ; >> Default value</p>
+	<p class="embed">unicode-bidi: embed ; </p>
+	<p class="bidi-override">unicode-bodi: bidi-override;</p>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>text-decoration-style</title>
+	<style type="text/css">
+		
+		body
+		{
+			font-size: 30px;
+			padding: 10px;
+			line-height: 70px;
+			text-align: center;
+		}
+		#solid  /* Default */
+		{
+			text-decoration-line: underline;
+			text-decoration-color: orange;
+            text-decoration-style: solid;
+		}
+		
+		#double
+		{
+            text-decoration-line: underline;
+			text-decoration-color: rgb(255, 230, 255);
+			text-decoration-style: double;
+		}
+
+		#dotted
+		{
+			text-decoration-line: overline;
+			text-decoration-color: rgb(0,0,225);
+			text-decoration-style: dotted;
+		}
+
+	    #dashed
+		{
+			text-decoration-line: line-through;
+			text-decoration-color: rgb(51, 204, 204);
+			text-decoration-style: dashed;
+		}
+		#wavy
+		{
+			text-decoration-line: line-through;
+			text-decoration-color: rgb(229, 229, 255);
+			text-decoration-style: wavy;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="solid">text-decoration-style: solid;</div>
+	<div id="double">text-decoration-style: double;</div>
+	<div id="dotted">text-decoration-style: dotted;</div>	
+	<div id="dashed">text-decoration-style: dashed;</div>	
+	<div id="wavy">text-decoration-style: wavy;</div>
+</body>
+</html>
